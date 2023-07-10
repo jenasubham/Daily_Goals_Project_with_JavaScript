@@ -1,0 +1,89 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: #E3F2FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    margin: 25px;
+  }
+  .container {
+    background-color: white;
+    width: 30%;
+    border-radius: 17px ;
+    min-height: 50vh;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+
+  }
+  form > *{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font: 400 .8rem Poppins;
+    outline: none;
+    border-radius: 0.8rem;
+  }
+  
+  #description{
+    resize: none;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    border: transparent;
+  }
+  button{
+    cursor: pointer;
+    background-color: #292424;
+    width: 50%;
+    height: 43px;
+    border: none;
+    color: white;
+    border-radius: 0.8rem;
+    font-size: 0.8rem;
+    transition: 0.3s;
+  }
+  button:hover{
+    background-color: #7f72da;
+  }
+
+  .task{
+    background-color: rgb(237,237,237);
+    font: 300 0.8rem sans-serif;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin: 1vmax;
+  }
+  .task div{
+    width: 100%;
+  }
+  .task span{
+    color: rgba(0, 0, 0, 0.632);
+  }
+  .deleteBtn{
+    border-radius: 100%;
+    width: 25px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+  }
